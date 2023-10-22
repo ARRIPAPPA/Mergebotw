@@ -100,7 +100,7 @@ async def callback_handler(c: Client, cb: CallbackQuery):
     elif cb.data == "document":
         UPLOAD_AS_DOC.update({f"{cb.from_user.id}": True})
         await cb.message.edit(
-            text="Do you want to rename?\nDefault file name is @Anime_DownLord.mkv",
+            text="Do you want to rename?\nDefault file name is @Blaster_Originals.mkv",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -116,7 +116,7 @@ async def callback_handler(c: Client, cb: CallbackQuery):
     elif cb.data == "video":
         UPLOAD_AS_DOC.update({f"{cb.from_user.id}": False})
         await cb.message.edit(
-            text="Do you want to rename?\nDefault file name is @Anime_DownLord.mkv",
+            text="Do you want to rename?\nDefault file name is @Blaster_Originalz.mkv",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
