@@ -204,7 +204,7 @@ async def start_handler(c: Client, m: Message):
         user.allowed = True
         user.set()
     res = await m.reply_text(
-        text=f"🛐 जय श्री राम🚩**{m.from_user.mention}**\n\n🚹 I am a file/video merger bot\n\n🛂 I can merge Telegram files!, And upload it to telegram\n\n**Owner:💭 @{Config.OWNER_USERNAME}** ",
+        text=f"Are Antra Idhi**{m.from_user.mention}**\n\n🚹 I am a file/video merger bot\n\n🛂 I can merge Telegram files!, And upload it to telegram\n\n**Owner:💭 @{Config.OWNER_USERNAME}** ",
         quote=True,
     )
     del user
@@ -500,10 +500,10 @@ async def about_handler(c: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Developer", url="https://t.me/StupidBoi69")],
+                [InlineKeyboardButton("Developer", url="https://t.me/Blaster_Originals")],
                 [
                     InlineKeyboardButton(
-                        "Source Code", url="https://t.me/StupidBoi69"
+                        "Source Code", url="https://t.me/Blaster_Originals"
                     ),
                     InlineKeyboardButton(
                         "Owner", url=f"https://t.me/{Config.OWNER_USERNAME}"
