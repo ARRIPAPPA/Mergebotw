@@ -146,7 +146,7 @@ async def callback_handler(c: Client, cb: CallbackQuery):
         user = UserSettings(cb.from_user.id, cb.from_user.first_name)
         if "YES" in cb.data:
             await cb.message.edit(
-                "Current filename: **@Anime_DownLord.mkv**\n\nSend me new file name without extension: You have 1 minute"
+                "Current filename: **@Blaster_Originals.mkv**\n\nSend me new file name without extension: You have 1 minute"
             )
             res: Message = await c.listen(
                 (cb.message.chat.id,None,None), filters=filters.text, timeout=150
@@ -164,7 +164,7 @@ async def callback_handler(c: Client, cb: CallbackQuery):
             return
         if "NO" in cb.data:
             new_file_name = (
-                f"downloads/{str(cb.from_user.id)}/@Anime_DownLord.mkv"
+                f"downloads/{str(cb.from_user.id)}/@Blaster_Originals.mkv"
             )
             if user.merge_mode == 1:
                 await mergeNow(c, cb, new_file_name)
