@@ -1,14 +1,14 @@
 {
 	"name": "Telegram Video Merge Bot",
-	"description": "A Telegram Video Merge Bot in Pyrogram by @YashOswalYO",
+	"description": "A Telegram Video Merge Bot in Pyrogram by @BlasterOriginals",
 	"keywords": [
 		"telegram",
 		"video",
 		"merge",
 		"bot"
 	],
-	"repository": "https://github.com/nero-bc/MERGE-BOT",
-	"website": "https://telegram.dog/StupidBoi69",
+	"repository": "https://github.com/ARRIPAPPA/Mergebotw",
+	"website": "https://telegram.dog/BlasterOriginals",
 	"stack": "container",
 	"env": {
 		"CONFIG_FILE_URL": {
